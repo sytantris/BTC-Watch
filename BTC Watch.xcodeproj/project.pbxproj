@@ -21,6 +21,7 @@
 		42D523381808B29900311B37 /* BTCValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D523371808B29900311B37 /* BTCValue.m */; };
 		42D5233B1808B95C00311B37 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D523391808B95C00311B37 /* MainMenu.xib */; };
 		42D5233E1808DE8C00311B37 /* BTCMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D5233D1808DE8C00311B37 /* BTCMenuController.m */; };
+		BD2BB0BD1D910EAD0059FE87 /* todo in Resources */ = {isa = PBXBuildFile; fileRef = BD2BB0BC1D910EAD0059FE87 /* todo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +56,11 @@
 		426E6C981808A96B0080958D /* BTCMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCMenu.h; sourceTree = "<group>"; };
 		426E6C991808A96B0080958D /* BTCMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCMenu.m; sourceTree = "<group>"; };
 		42D523361808B29900311B37 /* BTCValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCValue.h; sourceTree = "<group>"; };
-		42D523371808B29900311B37 /* BTCValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCValue.m; sourceTree = "<group>"; };
+		42D523371808B29900311B37 /* BTCValue.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = BTCValue.m; sourceTree = "<group>"; tabWidth = 2; };
 		42D5233A1808B95C00311B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		42D5233C1808DE8C00311B37 /* BTCMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCMenuController.h; sourceTree = "<group>"; };
 		42D5233D1808DE8C00311B37 /* BTCMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCMenuController.m; sourceTree = "<group>"; };
+		BD2BB0BC1D910EAD0059FE87 /* todo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = todo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				422A49551808A17F00AC1672 /* main.m */,
 				422A49571808A17F00AC1672 /* BTC Watch-Prefix.pch */,
 				422A49581808A17F00AC1672 /* Credits.rtf */,
+				BD2BB0BC1D910EAD0059FE87 /* todo */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				422A49541808A17F00AC1672 /* InfoPlist.strings in Resources */,
+				BD2BB0BD1D910EAD0059FE87 /* todo in Resources */,
 				422A49621808A17F00AC1672 /* Images.xcassets in Resources */,
 				422A495A1808A17F00AC1672 /* Credits.rtf in Resources */,
 				42D5233B1808B95C00311B37 /* MainMenu.xib in Resources */,
@@ -405,6 +409,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTC Watch/BTC Watch-Prefix.pch";
 				INFOPLIST_FILE = "BTC Watch/BTC Watch-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -418,6 +423,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BTC Watch/BTC Watch-Prefix.pch";
 				INFOPLIST_FILE = "BTC Watch/BTC Watch-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

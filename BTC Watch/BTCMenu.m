@@ -2,9 +2,11 @@
 //  BTCMenu.m
 //  BTC Watch
 //
-//  Created by Sytantris Dyat on 2013-10-11.
-//  Copyright (c) 2013 Sytantris Dyat. All rights reserved.
+//  Written by Sytantris Dyat <sytantris.dyat@gmail.com>
+//  First created: 2013-10-11.
+//  Last updated: 2016-09-19.
 //
+
 
 #import "BTCMenu.h"
 
@@ -29,8 +31,8 @@
                   action: (SEL)action
                   index: (NSInteger)index {
       NSMenuItem* item = [[NSMenuItem alloc] initWithTitle:title
-                                     action:action
-                                     keyEquivalent:@""];
+                                             action:action
+                                             keyEquivalent:@""];
       [item setTarget:self];
       [item setEnabled:YES];
       [self insertItem:item atIndex:index];
